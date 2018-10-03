@@ -1,0 +1,89 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+#download-button,#send-button{
+  border: 1px solid #ff836a;
+  background-color: #ff836a;
+  color: #F0F4C3;
+}
+
+nav{
+  background-color: #ff836a;
+}
+
+h1{
+  border: 2px solid #f9fbe7;
+  padding: 20px;
+}
+
+footer.page-footer{
+  background-color: #ff836a;
+  color: #F0F4C3;
+}
+
+body{
+  background-color: #d5cdb4;
+  font-family: 'Quicksand', sans-serif;
+}
+
+ul.menu{
+  background: #ff836a;
+  color: #F0F4C3;
+}
