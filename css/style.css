@@ -93,7 +93,9 @@ td{
 div.prices{
   background: #ff836a;
 }
+h5{
+  padding-bottom: 10px;
 table{
-  padding-top: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
 }
   
