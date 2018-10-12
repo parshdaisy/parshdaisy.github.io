@@ -94,9 +94,9 @@ div.prices{
   background: #ff836a;
 }
 h5{
-  padding-top: 20px;
+  padding-top: 10px;
 }
 table{
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px 0px 10px 0px;
 }
+  
